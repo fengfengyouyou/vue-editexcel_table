@@ -1,11 +1,17 @@
 {
-  "name": "vue-edittable",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-editexcel_table",
+  "version": "0.1.2",
+  "keywords": ["vue"," excel","table"],
+  "description":"在线编辑表格",
+  "main": "lib/vue-editexcel_table.umd.min.js",
+  "license":"MIT",
+  "private":false,
+  "author":"fengfengyou",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-editexcel_table --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.3.2",
@@ -18,6 +24,8 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
