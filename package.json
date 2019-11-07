@@ -6,7 +6,11 @@
     " excel",
     "table"
   ],
-  "homepage":"",
+  "homepage":"https://github.com/fengfengyouyou/vue-editexcel_table.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengfengyouyou/vue-editexcel_table.git"
+  },
   "description": "在线编辑表格",
   "main": "lib/vue-editexcel_table.umd.min.js",
   "license": "MIT",

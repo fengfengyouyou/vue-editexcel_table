@@ -302,25 +302,25 @@ Vue.use(vue-editexcel_table)
 3. 支持局部注册组件
 
 ## 选项
-你可以通过在props设置以下属性来配置组件具体启用哪些功能
-abilityTree：能力数据（必传参数）
-tier：勾选层级，0:无法勾选，1-3:第1-3级。默认为0
-defaultKeys：初始化时自动勾选的id数组，勾选层级不为0时生效
-isEdit：是否可编辑
-baseParams：编辑状态下所有请求都会附带的基础参数
-addRequest、deleteRequest、editRequest、moveRequest、dragRequest：增、删、改、上下移、拖拽请求的url和参数
-taskAbility：典型工作任务各课程对应能力的对象，例子：{id：1}
-showRequire：是否开启能力要求勾选
-showLevel：是否开启学习水平勾选
-catlogId，abilityId：项目或者任务、能力id
-showTotal：是否开启数据统计
-onlyShowChecked：是否仅显示已勾选项目
-onlyShowChecked：各项目的勾选次数对象，例子：{id：1}
-limitNum：限制最多勾选几次时发出警告
-canDelete：是否开启删除功能
+1. 你可以通过在props设置以下属性来配置组件具体启用哪些功能
+2. abilityTree：能力数据（必传参数）
+3. tier：勾选层级，0:无法勾选，1-3:第1-3级。默认为0
+4. defaultKeys：初始化时自动勾选的id数组，勾选层级不为0时生效
+5. isEdit：是否可编辑
+6. baseParams：编辑状态下所有请求都会附带的基础参数
+7. addRequest、deleteRequest、editRequest、moveRequest、dragRequest：增、删、改、上下移、拖拽请求的url和参数
+8. taskAbility：典型工作任务各课程对应能力的对象，例子：{id：1}
+9. showRequire：是否开启能力要求勾选
+10. showLevel：是否开启学习水平勾选
+11. catlogId，abilityId：项目或者任务、能力id
+12. showTotal：是否开启数据统计
+13. onlyShowChecked：是否仅显示已勾选项目
+14. onlyShowChecked：各项目的勾选次数对象，例子：{id：1}
+15. limitNum：限制最多勾选几次时发出警告
+16. canDelete：是否开启删除功能
 
-##通过.sync实现双向绑定属性
-:projectNum.sync
-:taskNum.sync
-:abilityNum.sync
+## 通过.sync实现双向绑定属性
+1. :projectNum.sync
+2. :taskNum.sync
+3. :abilityNum.sync
 
