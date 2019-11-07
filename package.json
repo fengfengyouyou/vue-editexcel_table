@@ -1,12 +1,17 @@
 {
   "name": "vue-editexcel_table",
-  "version": "0.1.2",
-  "keywords": ["vue"," excel","table"],
-  "description":"在线编辑表格",
+  "version": "0.1.4",
+  "keywords": [
+    "vue",
+    " excel",
+    "table"
+  ],
+  "homepage":"",
+  "description": "在线编辑表格",
   "main": "lib/vue-editexcel_table.umd.min.js",
-  "license":"MIT",
-  "private":false,
-  "author":"fengfengyou",
+  "license": "MIT",
+  "private": false,
+  "author": "fengfengyou",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

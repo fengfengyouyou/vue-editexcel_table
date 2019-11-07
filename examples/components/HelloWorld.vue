@@ -1,25 +1,21 @@
 <template>
   <div class="com">
     <EditTable :abilityTree="tableData" showTotal></EditTable>
-    <!-- <BackTop></BackTop> -->
+    <BackTop></BackTop>
   </div>
 </template>
 
 <script>
 import TableData from '../JsonData/editTable.json'
-import arr from '../../packages/index.js'
+// import { EditTable, BackTop } from '../../packages/index'
 export default {
-  // components: { BackTop },
+  // components: { EditTable, BackTop },
   data() {
     return {
       tableData: TableData
     }
   },
-  mounted() {
-    const { BackTop } = arr
-    this.$options.components.BackTop = BackTop
-    console.log(BackTop)
-  },
+  mounted() {},
   methods: {}
 }
 </script>
